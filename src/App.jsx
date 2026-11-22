@@ -457,6 +457,22 @@ function Lightbox({ items, index, accent, chapterTitle, onClose, onIndex }) {
             <span className="lb-title-badge">NOW PLAYING</span>
             <h3 className="lb-title">{item.title}</h3>
           </div>
+          {item.url && (
+            <a
+              href={item.url}
+              target="_blank"
+              rel="noreferrer"
+              className="lb-action-pill"
+              title="Open original video link in new tab"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                <polyline points="15 3 21 3 21 9" />
+                <line x1="10" y1="14" x2="21" y2="3" />
+              </svg>
+              <span>Original Link</span>
+            </a>
+          )}
         </div>
 
         {showStrip && (
@@ -587,7 +603,16 @@ function Chapter({ c, onOpenVideo }) {
               </div>
               <div className="tile-info">
                 <h4 className="tile-title">{w.title}</h4>
-                <span className="tile-hover-arrow">Watch ↗</span>
+                <a
+                  href={w.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="tile-hover-arrow"
+                  onClick={e => e.stopPropagation()}
+                  title="Open original video link in new tab"
+                >
+                  Watch ↗
+                </a>
               </div>
             </article>
           )
