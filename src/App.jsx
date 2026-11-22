@@ -2,35 +2,6 @@ import { useEffect, useRef, useState } from 'react'
 import { chapters, press } from './data.js'
 import bcfwLogo from './assets/bcfw-logo.png'
 
-export const heroSlides = [
-  {
-    id: 'ganguly',
-    client: 'DTC Group',
-    tag: 'FEATURING SOURAV GANGULY',
-    title: 'DTC Capital City ft. Sourav Ganguly',
-    vernacular: 'দাদার পছন্দের ঠিকানা',
-    quote: 'A Life BIGGER Than... Starring Sourav Ganguly for DTC Capital City Rajarhat.',
-    url: 'https://www.youtube.com/watch?v=bFshSeVvu0U',
-    ytId: 'bFshSeVvu0U',
-    bg: '#081424',
-    accent: '#FDB913',
-    glow: 'rgba(253, 185, 19, 0.45)',
-  },
-  {
-    id: 'laticrete',
-    client: 'MYK Laticrete',
-    tag: 'INNOVATION',
-    title: 'MYK LATICRETE | Laxmi',
-    vernacular: 'मजबूती ऐसी जो बरसों तक चले',
-    quote: 'India’s premier tile and stone installation innovation with authentic cultural insight.',
-    url: 'https://www.youtube.com/watch?v=WKbuNrcAWwY',
-    ytId: 'WKbuNrcAWwY',
-    bg: '#061a15',
-    accent: '#20c997',
-    glow: 'rgba(32, 201, 151, 0.45)',
-  },
-]
-
 function useReveal() {
   const ref = useRef(null)
   const [shown, setShown] = useState(false)
@@ -121,53 +92,62 @@ function Nav() {
   )
 }
 
-function Hero({ onOpenVideo }) {
-  const [curr, setCurr] = useState(0)
-  const slide = heroSlides[curr]
-
-  const next = () => {
-    setCurr(c => (c + 1) % heroSlides.length)
-  }
-
-  const prev = () => {
-    setCurr(c => (c - 1 + heroSlides.length) % heroSlides.length)
-  }
-
-  // 6.0 seconds per video (gives 6 full seconds for Sourav Ganguly & MYK Laticrete)
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurr(c => (c + 1) % heroSlides.length)
-    }, 6000)
-    return () => clearInterval(interval)
-  }, [curr])
-
-  useEffect(() => {
-    const handleKey = e => {
-      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return
-      if (e.key === 'ArrowRight') next()
-      if (e.key === 'ArrowLeft') prev()
-    }
-    window.addEventListener('keydown', handleKey)
-    return () => window.removeEventListener('keydown', handleKey)
-  }, [])
-
+function Hero() {
   return (
-    <section id="top" className="hero modern-hero">
-      {/* 100% Full-Screen Clean Background Video */}
-      <div className="hero-bg-video-wrap">
-        <iframe
-          key={slide.ytId}
-          className="hero-bg-video-iframe"
-          src={`https://www.youtube.com/embed/${slide.ytId}?autoplay=1&mute=1&controls=0&disablekb=1&fs=0&loop=1&playlist=${slide.ytId}&playsinline=1&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1`}
-          title={`${slide.title} background`}
-          allow="autoplay; encrypted-media; fullscreen"
-          tabIndex="-1"
-        />
-        <div
-          className="hero-bg-scrim"
-          onClick={() => onOpenVideo && onOpenVideo(curr)}
-        />
+    <section id="top" className="hero modern-hero-portfolio">
+      <div className="hero-ambient-glow" />
+      <div className="hero-ambient-glow-secondary" />
+
+      <div className="hero-portfolio-container">
+        <div className="hero-tag-wrap">
+          <span className="hero-portfolio-badge">BHARAT CONTENT FIREWORKS</span>
+          <span className="hero-portfolio-dot">•</span>
+          <span className="hero-portfolio-tagline">CURATED ARCHIVE 2026</span>
+        </div>
+
+        <h1 className="hero-portfolio-headline">
+          My Portfolio work
+        </h1>
+
+        <p className="hero-portfolio-sub">
+          A signature showcase of award-winning branded films, cultural storytelling, regional vernacular campaigns, and new-age creative production.
+        </p>
+
+        <div className="hero-action-row">
+          <a href="#about" className="hero-primary-btn">
+            <span>Explore Portfolio</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="12" y1="5" x2="12" y2="19" />
+              <polyline points="19 12 12 19 5 12" />
+            </svg>
+          </a>
+          <a href="#contact" className="hero-secondary-btn">
+            <span>Start A Conversation</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+        </div>
+
+        <div className="hero-quick-chips">
+          {chapters.map(c => (
+            <a key={c.id} href={`#${c.id}`} className="hero-quick-chip">
+              <span>{c.title}</span>
+            </a>
+          ))}
+          <a href="#press" className="hero-quick-chip">
+            <span>Press</span>
+          </a>
+        </div>
       </div>
+
+      <a href="#about" className="hero-scroll-cue" aria-label="Scroll to explore">
+        <span>SCROLL</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </a>
     </section>
   )
 }
@@ -1055,11 +1035,7 @@ export default function App() {
       {/* Navigation bar is completely hidden when ANY video modal or article pop-up is open */}
       {!modal && articleModal === null && <Nav />}
       <main>
-        <Hero
-          onOpenVideo={idx =>
-            openVideo(heroSlides, idx, heroSlides[idx]?.accent, heroSlides[idx]?.client)
-          }
-        />
+        <Hero />
         <Founder />
         {chapters.map(c => (
           <Chapter
