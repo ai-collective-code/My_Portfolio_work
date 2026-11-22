@@ -129,17 +129,6 @@ function Hero() {
             </svg>
           </a>
         </div>
-
-        <div className="hero-quick-chips">
-          {chapters.map(c => (
-            <a key={c.id} href={`#${c.id}`} className="hero-quick-chip">
-              <span>{c.title}</span>
-            </a>
-          ))}
-          <a href="#press" className="hero-quick-chip">
-            <span>Press</span>
-          </a>
-        </div>
       </div>
 
       <a href="#about" className="hero-scroll-cue" aria-label="Scroll to explore">
