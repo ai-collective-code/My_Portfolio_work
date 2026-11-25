@@ -81,13 +81,13 @@ export function Marquee({ items: e = [], variant: t }) {
     )
   }
   let n = [
-      "AI FILMMAKER FOR INDIA'S BIGGEST BRANDS",
-      '15+ YEARS',
-      'CANNES LIONS WINNING WORK',
-      "AI FILMMAKER FOR INDIA'S BIGGEST BRANDS",
-      '15+ YEARS',
-      'CANNES LIONS WINNING WORK',
-    ],
+    "AI FILMMAKER FOR INDIA'S BIGGEST BRANDS",
+    '15+ YEARS',
+    'CANNES LIONS WINNING WORK',
+    "AI FILMMAKER FOR INDIA'S BIGGEST BRANDS",
+    '15+ YEARS',
+    'CANNES LIONS WINNING WORK',
+  ],
     r = [...n, ...n]
   return (
     <div className="marquee-track relative w-full overflow-hidden border-y border-white/15 bg-[#0B0B0B] py-7 md:py-10">

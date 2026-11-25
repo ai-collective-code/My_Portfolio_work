@@ -1,36 +1,23 @@
-# Bharat Content Fireworks (BC[f]W) — Portfolio
+# AiC + Debojit Work (one React project)
 
-> **Cultural Insight Meets High-Impact Storytelling & Technology**  
-> Official portfolio website of Bharat Content Fireworks, a unit of AI Collective Private Limited.
+Two pages in a single Vite + React 18 project:
 
-## Features
-- **Editorial Design System**: Modern white and pinkish theme with responsive typography and custom branding.
-- **Cinematic Portfolio Chapters**: Scripted, AI Storytelling, Activation, Unscripted, Corporate, and Technology campaigns.
-- **Integrated Cinema Lightbox**: High-resolution video embeds and smartphone frame preview for vertical Instagram Reels.
-- **In The News Modal**: Curated press archive modal with smooth navigation and key story takeaways.
-- **Interactive Founder Profile**: Debojit Saha (Founder & Creative Producer, Calcutta Xaverian & IIMB Alumnus).
-- **Responsive Layout**: Fluid breakpoints optimized for mobile, tablet, and desktop screens.
+| URL | Page | Source |
+|---|---|---|
+| `/` | AiC — India's Invitation Only AI Creator Collective | `src/aic` |
+| `/Debojit_work/` | Debojit Saha portfolio (BC[f]W) | `src/work` |
 
-## Quick Start
+The **My Work** button in the AiC nav opens `/Debojit_work/` in a new tab.
+Each page keeps its own stylesheet, so their global CSS never clashes.
+
+## Run
 
 ```bash
-# Install dependencies
 npm install
-
-# Start local development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
+npm run dev      # http://localhost:5173/  and  /Debojit_work/
+npm run build    # outputs both pages to dist/
 ```
 
-## Tech Stack
-- [React 18](https://react.dev/)
-- [Vite](https://vitejs.dev/)
-- Vanilla CSS3 with Modern Variables and Custom Breakpoints
+Set `VITE_MY_WORK_URL` to point the My Work button somewhere else.
 
-## License
-© Bharat Content Fireworks (AI Collective Private Limited). All rights reserved.
+Note: the AiC application form posts to Web3Forms (key in `src/aic/data.js`), so real submissions email the owner.
