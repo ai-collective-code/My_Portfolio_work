@@ -89,7 +89,7 @@ export function Header({ onOpenCampaigns: e }) {
               href={CONTACT.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="LinkedIn AI Collective"
+              aria-label="LinkedIn Debojit Saha"
               title="Connect on LinkedIn"
               className="flex h-10 w-10 items-center justify-center text-white hover:text-[#FF3388] active:text-[#B80058] transition-colors"
             >

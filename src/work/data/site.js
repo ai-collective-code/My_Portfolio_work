@@ -1,10 +1,10 @@
 export const CONTACT = {
   instagram: 'https://www.instagram.com/bcfw.aic?cnvx=MWFtbXBkZnJjZG1vaA==',
   instagramLabel: '@bcfw.aic',
-  linkedin: 'https://www.linkedin.com/company/ai-collective-private-limited/',
-  linkedinLabel: 'AI Collective',
-  email: 'debojit.aic@gmail.com',
-  mailto: 'mailto:debojit.aic@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/debojitsaha?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+  linkedinLabel: 'Debojit Saha',
+  email: 'debojit@aicollective.agency',
+  mailto: 'mailto:debojit@aicollective.agency',
 }
 export const PORTRAIT_URL = '/debojit-portrait.png'
 export const EXPERIENCE = [
