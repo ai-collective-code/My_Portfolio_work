@@ -19,7 +19,7 @@ export function Manifesto() {
       <div className="relative z-10 mx-auto max-w-5xl text-center">
         <h2 className="mx-auto leading-[0.95] tracking-tight">
           <span className="block font-serif-editorial italic font-normal text-4xl sm:text-6xl md:text-7xl text-white/95 mb-3 md:mb-4">
-            An AI filmmaker
+            A branded content producer
           </span>
           <span className="block font-display-wide font-black uppercase text-3xl sm:text-6xl md:text-8xl tracking-[-0.03em] text-white leading-[1.02]">
             {"FOR INDIA'S BIGGEST"}

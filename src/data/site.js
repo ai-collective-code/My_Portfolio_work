@@ -52,6 +52,13 @@ export const PRESS_ITEMS = [
     publication: 'Storyboard18',
     headline: 'How Artificial Intelligence will impact the future of filmmaking',
     subtitle: 'Featuring Debojit Saha on the creative transformation of filmmaking.',
+    summary:
+      'An industry perspective featuring Debojit Saha on how generative AI is reshaping pre-production ideation, rapid storyboarding, post-production workflows, and lean brand filmmaking—while underscoring that human direction and cultural nuance remain central to compelling storytelling.',
+    takeaways: [
+      'AI accelerates pre-production visualization, script ideation, and visual storyboarding before physical shoots.',
+      'Lean, AI-assisted workflows allow smaller creative teams to produce high-impact cinematic worlds without blockbuster overhead.',
+      'Technology serves as a creative multiplier, while human insight and emotional authenticity drive resonant films.',
+    ],
     ctaLabel: 'Read article',
     url: 'https://www.storyboard18.com/how-it-works/how-a-i-will-impact-the-future-of-filmmaking-6003.htm',
   },
@@ -60,6 +67,13 @@ export const PRESS_ITEMS = [
     publication: 'The Economic Times',
     headline: 'Beware misleading ad game: Tricking Indians rather than offering "Umeedo Wali Dhoop"',
     subtitle: 'Industry analysis and insights on authentic advertising and viewer trust.',
+    summary:
+      'An ET BrandEquity analysis examining the rise of deceptive advertising claims across digital and traditional media, contrasting manipulative short-term tactics against classic, trust-led Indian brand storytelling.',
+    takeaways: [
+      'Highlights ASCI data flagging a sharp rise in misleading advertising claims across digital channels.',
+      'Examines high-risk categories including healthcare/wellness, personal care, ed-tech, and offshore betting.',
+      'Calls for stronger self-regulation, consumer trust, and authentic brand narratives over exaggerated promises.',
+    ],
     ctaLabel: 'Read article',
     url: 'https://economictimes.indiatimes.com/industry/services/advertising/beware-misleading-ad-game-tricking-indians-rather-than-offering-umeedo-wali-dhoop/articleshow/110534209.cms',
   },
@@ -68,6 +82,13 @@ export const PRESS_ITEMS = [
     publication: 'The Economic Times',
     headline: 'MS Dhoni: A Baahubali brand whose valuation score keeps running to new dawns',
     subtitle: 'Brand storytelling and the enduring commercial legacy of MS Dhoni.',
+    summary:
+      'A deep dive into the enduring commercial appeal of Mahendra Singh Dhoni, exploring why his brand valuation and marketer demand continued to climb even after his retirement from international cricket.',
+    takeaways: [
+      'Compares Dhoni’s mass dependability and cultural stature to a “Baahubali” phenomenon in Indian endorsements.',
+      'Explains how ongoing IPL leadership and deep regional fan loyalty keep his commercial appeal growing.',
+      'Highlights how his calm, grounded persona makes him a trusted face across diverse consumer categories.',
+    ],
     ctaLabel: 'Read article',
     url: 'https://economictimes.indiatimes.com/industry/services/advertising/ms-dhoni-a-baahubali-brand-whose-valuation-score-keeps-running-to-new-dawns/articleshow/100614122.cms',
   },
@@ -76,6 +97,13 @@ export const PRESS_ITEMS = [
     publication: 'Exchange4media',
     headline: "Nykaa TV presents 'Khoj' — A Mother's Day film created using vertical smartphone interface",
     subtitle: 'Innovative storytelling shot entirely on mobile screens.',
+    summary:
+      'Coverage of Nykaa TV’s Mother’s Day digital short film “Khoj” (May 2020), produced remotely during the national lockdown using a vertical smartphone screen-life format starring Akanksha Thakur.',
+    takeaways: [
+      'Tells the story of a quarantined daughter using her Nykaa order history and phone calls to track down her mother.',
+      'Reveals a moving tribute to frontline healthcare workers serving in hospitals during the pandemic.',
+      'Shot entirely remotely on a vertical mobile interface, turning lockdown constraints into an intimate narrative format.',
+    ],
     ctaLabel: 'Read article',
     url: 'https://www.exchange4media.com/advertising-news/nykaa-tv-presents-khoj-a-mothers-day-film-created-using-vertical-smartphone-interface-104625.html',
   },
@@ -84,6 +112,13 @@ export const PRESS_ITEMS = [
     publication: 'Adgully',
     headline: "Nykaa TV presents 'Rakshak'",
     subtitle: 'Compelling cinematic digital production celebrating real-life frontline heroes.',
+    summary:
+      'Adgully feature on Nykaa TV’s Raksha Bandhan short film “Rakshak” (August 2020), starring Charlie Chauhan and produced by ICE Media Lab as a salute to everyday protectors during lockdown.',
+    takeaways: [
+      'Follows a single mother recounting how her “bhaiya” quietly supported her household with essentials during lockdown.',
+      'Concludes with an emotional reveal as she ties a Rakhi to her building’s security guard.',
+      'Celebrates inclusivity, human connection, and the unsung everyday heroes who kept communities safe.',
+    ],
     ctaLabel: 'Read article',
     url: 'https://archive.adgully.com/nykaa-tv-presents-rakshak-95316.html',
   },
@@ -92,6 +127,13 @@ export const PRESS_ITEMS = [
     publication: 'Adgully',
     headline: "ITC's Aashirvaad Mishti Doi brought the age-old 'doi walas' to life",
     subtitle: 'Cultural heritage meets authentic brand narrative in Bengal.',
+    summary:
+      'Adgully spotlight on ITC Aashirvaad Mishti Doi’s nostalgic Durga Puja campaign in Kolkata, reviving the iconic street-level cultural memory of Bengal’s traditional “doi walas.”',
+    takeaways: [
+      'Brought traditional doi-walas in dhotis and gamchhas back onto Kolkata streets carrying earthen pots on wooden baanks.',
+      'Paired on-ground cultural activation with an original Bengali song celebrating heritage and festive warmth.',
+      'Demonstrates how hyper-local cultural insight builds instant emotional resonance for heritage food brands.',
+    ],
     ctaLabel: 'Read article',
     url: 'https://archive.adgully.com/itc--s-aashirvaad-mishti-doi-brought-the-age-old--doi-walas--to-life-138441.html',
   },
@@ -100,6 +142,13 @@ export const PRESS_ITEMS = [
     publication: 'Social Samosa',
     headline: 'Campaign Face Off: Springfit #AbToSoja v/s Duroflex #YawnOffSleepOn',
     subtitle: 'Comparative look into modern mattress ad campaigns.',
+    summary:
+      'Social Samosa’s comparative feature examining Springfit’s #AbToSoja campaign alongside World Sleep Day storytelling, highlighting how the film flipped bedtime nagging on its head.',
+    takeaways: [
+      'Springfit #AbToSoja used playful role-reversal where children sing lullabies to parents glued to late-night phone screens.',
+      'Turned smartphone-driven sleep deprivation into a relatable family insight rather than a generic product pitch.',
+      'Compared creative framing, emotional recall, and social engagement across competing sleep-category campaigns.',
+    ],
     ctaLabel: 'Read article',
     url: 'https://www.socialsamosa.com/2020/03/campaign-face-off-springfit-abtosoja-v-s-duroflex-yawnoffsleepon/',
   },

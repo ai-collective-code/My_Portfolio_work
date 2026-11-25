@@ -2,64 +2,40 @@
 
 export const HERO_SLIDES = [
   {
-    "id": "hero-dtc-capital-city-sourav-ganguly",
-    "title": "DTC Capital City ft. Sourav Ganguly",
-    "client": "DTC Group",
-    "year": "2026",
+    "id": "hero-sourav-ganguly-ekmot",
+    "title": "Ekmot – This Durga Pujo, Bengalis Agree on One Thing",
+    "client": "Dabur Honey ft. Sourav Ganguly",
+    "year": "2025",
     "isNew": true,
     "type": "youtube",
-    "youtubeId": "bFshSeVvu0U",
-    "src": "https://img.youtube.com/vi/bFshSeVvu0U/maxresdefault.jpg",
-    "thumbnail": "https://img.youtube.com/vi/bFshSeVvu0U/maxresdefault.jpg",
-    "lightboxId": "dtc-capital-city-sourav-ganguly"
+    "youtubeId": "PouqgQjpgVQ",
+    "src": "https://img.youtube.com/vi/PouqgQjpgVQ/maxresdefault.jpg",
+    "thumbnail": "https://img.youtube.com/vi/PouqgQjpgVQ/maxresdefault.jpg",
+    "lightboxId": "dabur-honey-ekmot-sourav-ganguly"
   },
   {
-    "id": "hero-myk-laticrete-laxmi",
-    "title": "MYK LATICRETE | Laxmi",
-    "client": "MYK LATICRETE",
-    "year": "2026",
-    "isNew": true,
-    "type": "youtube",
-    "youtubeId": "WKbuNrcAWwY",
-    "src": "https://img.youtube.com/vi/WKbuNrcAWwY/maxresdefault.jpg",
-    "thumbnail": "https://img.youtube.com/vi/WKbuNrcAWwY/maxresdefault.jpg",
-    "lightboxId": "myk-laticrete-laxmi"
-  },
-  {
-    "id": "hero-dabur-red-paste-the-wall",
-    "title": "The Wall That Spits Back",
+    "id": "hero-asur-dantasurs-dantlal",
+    "title": "Dantasurs Beware! Dantlal is Here!",
     "client": "Dabur Red Paste",
     "year": "2025",
     "isNew": false,
     "type": "youtube",
-    "youtubeId": "vekc_Sb3GHA",
-    "src": "https://img.youtube.com/vi/vekc_Sb3GHA/maxresdefault.jpg",
-    "thumbnail": "https://img.youtube.com/vi/vekc_Sb3GHA/maxresdefault.jpg",
-    "lightboxId": "dabur-red-paste-the-wall"
+    "youtubeId": "ie9iPHW8Gpo",
+    "src": "https://img.youtube.com/vi/ie9iPHW8Gpo/maxresdefault.jpg",
+    "thumbnail": "https://img.youtube.com/vi/ie9iPHW8Gpo/maxresdefault.jpg",
+    "lightboxId": "activation-dantasurs-beware-dantlal-is-here-8"
   },
   {
-    "id": "hero-eno-chewy-bites",
-    "title": "ENO Chewy Bites",
-    "client": "ENO",
+    "id": "hero-rumi-fine-fragrances",
+    "title": "Rumi Fine Fragrances | It's time to find your essence",
+    "client": "Rumi Fine Fragrances",
     "year": "2025",
-    "isNew": true,
-    "type": "youtube",
-    "youtubeId": "NdKiG7Nb-ZU",
-    "src": "https://img.youtube.com/vi/NdKiG7Nb-ZU/maxresdefault.jpg",
-    "thumbnail": "https://img.youtube.com/vi/NdKiG7Nb-ZU/maxresdefault.jpg",
-    "lightboxId": "eno-chewy-bites"
-  },
-  {
-    "id": "hero-dabbo-wala-rishta",
-    "title": "Dabbo wala Rishta | The Story of Dabbawalas",
-    "client": "ITC / Akshaya Patra",
-    "year": "2024",
     "isNew": false,
     "type": "youtube",
-    "youtubeId": "zxuVCyvhA2A",
-    "src": "https://img.youtube.com/vi/zxuVCyvhA2A/maxresdefault.jpg",
-    "thumbnail": "https://img.youtube.com/vi/zxuVCyvhA2A/maxresdefault.jpg",
-    "lightboxId": "dabbo-wala-rishta"
+    "youtubeId": "8MpafHWNSkk",
+    "src": "https://img.youtube.com/vi/8MpafHWNSkk/maxresdefault.jpg",
+    "thumbnail": "https://img.youtube.com/vi/8MpafHWNSkk/maxresdefault.jpg",
+    "lightboxId": "ai-rumi-fine-fragrances-it-s-time-to-find-your-e-4"
   },
   {
     "id": "hero-odomos-maccharon-se-gayab",
@@ -72,25 +48,49 @@ export const HERO_SLIDES = [
     "src": "https://img.youtube.com/vi/MpOVKWIUaNE/maxresdefault.jpg",
     "thumbnail": "https://img.youtube.com/vi/MpOVKWIUaNE/maxresdefault.jpg",
     "lightboxId": "odomos-maccharon-se-gayab"
+  },
+  {
+    "id": "hero-swiggy-durga-pujo",
+    "title": "Durga Pujo isn't complete without Bhog and New Clothes, is it?",
+    "client": "Swiggy",
+    "year": "2024",
+    "isNew": false,
+    "type": "youtube",
+    "youtubeId": "dkOf3qE16f0",
+    "src": "https://img.youtube.com/vi/dkOf3qE16f0/maxresdefault.jpg",
+    "thumbnail": "https://img.youtube.com/vi/dkOf3qE16f0/maxresdefault.jpg",
+    "lightboxId": "scripted-durga-pujo-isn-t-complete-without-bhog-and-ne-1"
+  },
+  {
+    "id": "hero-lenskart-blu-diwali",
+    "title": "Lenskart BLU | #BLUWaaliDiwali",
+    "client": "Lenskart",
+    "year": "2020",
+    "isNew": false,
+    "type": "youtube",
+    "youtubeId": "53hjspAk1so",
+    "src": "https://img.youtube.com/vi/53hjspAk1so/maxresdefault.jpg",
+    "thumbnail": "https://img.youtube.com/vi/53hjspAk1so/maxresdefault.jpg",
+    "lightboxId": "scripted-lenskart-blu-bluwaalidiwali-10"
   }
 ];
 
 export const FEATURED_WORKS = [
   {
-    "id": "dtc-capital-city-sourav-ganguly",
+    "id": "dabur-honey-ekmot-sourav-ganguly",
     "group": "featured",
-    "client": "DTC Group",
+    "client": "Dabur Honey ft. Sourav Ganguly",
     "isNew": true,
-    "year": "2026",
-    "title": "DTC Capital City ft. Sourav Ganguly",
-    "description": "A Life BIGGER Than... Starring Sourav Ganguly for DTC Capital City Rajarhat.",
+    "year": "2025",
+    "title": "Ekmot – This Durga Pujo, Bengalis Agree on One Thing",
+    "description": "Durga Puja x Dabur Honey campaign film starring Sourav Ganguly.",
     "type": "youtube",
-    "youtubeId": "bFshSeVvu0U",
+    "youtubeId": "PouqgQjpgVQ",
     "media": [
-      "https://img.youtube.com/vi/bFshSeVvu0U/maxresdefault.jpg"
+      "https://img.youtube.com/vi/PouqgQjpgVQ/maxresdefault.jpg"
     ],
-    "thumbnail": "https://img.youtube.com/vi/bFshSeVvu0U/maxresdefault.jpg",
-    "watchUrl": "https://www.youtube.com/watch?v=bFshSeVvu0U",
+    "thumbnail": "https://img.youtube.com/vi/PouqgQjpgVQ/maxresdefault.jpg",
+    "watchUrl": "https://www.youtube.com/watch?v=PouqgQjpgVQ",
     "watchLabel": "Watch on YouTube"
   },
   {
@@ -124,23 +124,6 @@ export const FEATURED_WORKS = [
     ],
     "thumbnail": "https://img.youtube.com/vi/vekc_Sb3GHA/maxresdefault.jpg",
     "watchUrl": "https://www.youtube.com/watch?v=vekc_Sb3GHA",
-    "watchLabel": "Watch on YouTube"
-  },
-  {
-    "id": "eno-chewy-bites",
-    "group": "featured",
-    "client": "ENO",
-    "isNew": true,
-    "year": "2025",
-    "title": "ENO Chewy Bites",
-    "description": "Instant acidity relief meets energetic, dynamic storytelling.",
-    "type": "youtube",
-    "youtubeId": "NdKiG7Nb-ZU",
-    "media": [
-      "https://img.youtube.com/vi/NdKiG7Nb-ZU/maxresdefault.jpg"
-    ],
-    "thumbnail": "https://img.youtube.com/vi/NdKiG7Nb-ZU/maxresdefault.jpg",
-    "watchUrl": "https://www.youtube.com/watch?v=NdKiG7Nb-ZU",
     "watchLabel": "Watch on YouTube"
   },
   {
@@ -542,20 +525,6 @@ export const ARCHIVE_WORKS = [
     "watchLabel": "Watch on YouTube"
   },
   {
-    "id": "ai-myk-laticrete-khao-maa-kasam-hindi-27",
-    "group": "ai",
-    "client": "MYK LATICRETE",
-    "title": "MYK LATICRETE | Khao Maa Kasam (Hindi)",
-    "type": "youtube",
-    "youtubeId": "Yk-uwrnzYZc",
-    "media": [
-      "https://img.youtube.com/vi/Yk-uwrnzYZc/hqdefault.jpg"
-    ],
-    "thumbnail": "https://img.youtube.com/vi/Yk-uwrnzYZc/hqdefault.jpg",
-    "watchUrl": "https://www.youtube.com/watch?v=Yk-uwrnzYZc",
-    "watchLabel": "Watch on YouTube"
-  },
-  {
     "id": "ai-santosh-mitra-square-durga-puja-2025-28",
     "group": "ai",
     "client": "Santosh Mitra Square",
@@ -600,7 +569,7 @@ export const ARCHIVE_WORKS = [
   {
     "id": "scripted-durga-pujo-isn-t-complete-without-bhog-and-ne-1",
     "group": "scripted",
-    "client": "Bharat Content Fireworks",
+    "client": "Swiggy",
     "title": "Durga Pujo isn't complete without Bhog and New Clothes, is it?",
     "type": "youtube",
     "youtubeId": "dkOf3qE16f0",
@@ -609,20 +578,6 @@ export const ARCHIVE_WORKS = [
     ],
     "thumbnail": "https://img.youtube.com/vi/dkOf3qE16f0/hqdefault.jpg",
     "watchUrl": "https://www.youtube.com/watch?v=dkOf3qE16f0",
-    "watchLabel": "Watch on YouTube"
-  },
-  {
-    "id": "scripted-eno-chewy-bites-2",
-    "group": "scripted",
-    "client": "ENO",
-    "title": "ENO Chewy Bites",
-    "type": "youtube",
-    "youtubeId": "NdKiG7Nb-ZU",
-    "media": [
-      "https://img.youtube.com/vi/NdKiG7Nb-ZU/hqdefault.jpg"
-    ],
-    "thumbnail": "https://img.youtube.com/vi/NdKiG7Nb-ZU/hqdefault.jpg",
-    "watchUrl": "https://www.youtube.com/watch?v=NdKiG7Nb-ZU",
     "watchLabel": "Watch on YouTube"
   },
   {
@@ -777,20 +732,6 @@ export const ARCHIVE_WORKS = [
     ],
     "thumbnail": "https://img.youtube.com/vi/qx6xK9u3Gys/hqdefault.jpg",
     "watchUrl": "https://www.youtube.com/watch?v=qx6xK9u3Gys",
-    "watchLabel": "Watch on YouTube"
-  },
-  {
-    "id": "scripted-nykaa-khoj-14",
-    "group": "scripted",
-    "client": "Nykaa",
-    "title": "Nykaa \u2014 Khoj",
-    "type": "youtube",
-    "youtubeId": "8Ms4EBbz5eY",
-    "media": [
-      "https://img.youtube.com/vi/8Ms4EBbz5eY/hqdefault.jpg"
-    ],
-    "thumbnail": "https://img.youtube.com/vi/8Ms4EBbz5eY/hqdefault.jpg",
-    "watchUrl": "https://www.youtube.com/watch?v=8Ms4EBbz5eY",
     "watchLabel": "Watch on YouTube"
   },
   {
